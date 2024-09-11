@@ -1,0 +1,169 @@
+@import url("https://fonts.google.com/specimen/Nunito+Sans");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    --bgColor:hsl(0,0%,98%);
+    --fontcolor:hsl(200, 15%, 8%);
+    font-family:"Nunito Sans", sans-serif  ;
+}
+.title{
+    margin: 20px 0px 0px 40px;
+    
+    
+}
+.container{
+    box-shadow:0 4px 4px 4px rgba(0, 0, 0, 0.2);
+} 
+
+button{
+    outline: none;
+    border: 0;
+    background: transparent;
+
+}
+.header p  {
+    /* margin: 0px 50px 0px 0px; */
+    justify-content: end;
+    align-items: end;
+    display: flex;
+   
+}
+.toggle{
+    font-size: 18px;
+    cursor: pointer;
+}
+.toggle i{
+    padding-right: 5px;
+}
+.form-control{
+    width: 405px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden ;
+    top: 40px;
+
+    
+}
+.form-control i{
+  position: absolute;
+  top: 20px;
+  right: 1rem;
+}
+.form-control input{
+    width: 100%;
+    padding: 17px 14px;
+    outline:0 ;
+    border: 0;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+.dropdownCon{
+    /* width: 0px; */
+    position: relative;
+    justify-content: right;
+    display: flex;
+    margin-right: 100px;
+    margin-top: 40px;
+    
+   
+}
+.dropdown{
+    width: 200px;
+    padding: 10px 11px;
+    margin: 0px -80px 0px 0px;
+    /* margin-left: -30px; */
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 16px;
+    width: -30px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    
+    
+}
+.dropdown p{
+  letter-spacing: 0.5px;
+  /* top: 2rem; */
+  
+  margin-left:15px; 
+
+}
+.drop{
+    position: absolute;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    top: 4rem;
+    padding: 20px 19px 20px 20px;
+    border-radius: 5px;
+    margin-left: 0px;
+    width: 200px;
+    background: var(--bgColor);
+    cursor: pointer;
+
+
+}
+.drop p{
+    margin: 5px 0;
+    
+}
+.countries{
+    /* padding: 50px; */
+    display: grid;
+    grid-template-columns: repeat((auto-fit, minmax(300px, 1fr)));
+    grid-gap: 8%;
+    display: flex; 
+}
+#countries{
+    margin: 0px 0px 0px 0px;
+    /* width: 90px; */
+}
+/* #cuntries1{
+    margin: 20px 70px 0px 0px;
+    width: 10%;
+} */
+.country2{
+    border-radius: 5px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    height: 370px;
+    width: 310px;
+        
+  } 
+
+.countryimg{
+ 
+  width: 80%;
+ 
+}
+.countryimg img{
+     /* width: 99%; */
+    height: 100%;
+}
+.countryInfo{
+    padding: 20px 18px;
+}
+.countryInfo h5{
+    padding: 8px 0;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.countryInfo p {
+    letter-spacing: 1px;
+}
+.countryInfo p> b{
+    font-weight: 600;
+   
+}
+.showDropDown{
+    display: none;
+}
+
+
+
